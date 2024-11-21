@@ -27,10 +27,10 @@ static const struct controller_event REGISTERED_EVENTS[] = {
         {.type=EV_KEY, .code=BTN_TR, .name="R1"},
         {.type=EV_KEY, .code=BTN_TR2, .name="R2"},
         // action pad buttons
-        {.type=EV_KEY, .code=BTN_NORTH, .name="TRIANGLE"},
-        {.type=EV_KEY, .code=BTN_SOUTH, .name="CROSS"},
-        {.type=EV_KEY, .code=BTN_WEST, .name="SQUARE"},
-        {.type=EV_KEY, .code=BTN_EAST, .name="CIRCLE"},
+        {.type=EV_KEY, .code=BTN_NORTH, .name="NORTH"},
+        {.type=EV_KEY, .code=BTN_SOUTH, .name="SOUTH"},
+        {.type=EV_KEY, .code=BTN_WEST, .name="WEST"},
+        {.type=EV_KEY, .code=BTN_EAST, .name="EAST"},
         // d-pad buttons
         {.type=EV_KEY, .code=BTN_DPAD_UP, .name="UP"},
         {.type=EV_KEY, .code=BTN_DPAD_DOWN, .name="DOWN"},

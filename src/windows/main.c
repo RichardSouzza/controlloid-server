@@ -31,10 +31,10 @@ static const struct controller_event REGISTERED_EVENTS[] = {
         {.type=BUTTON, .code=8, .name="R1"},
         {.type=BUTTON, .code=6, .name="R2"},
         // action pad buttons
-        {.type=BUTTON, .code=1, .name="TRIANGLE"},
-        {.type=BUTTON, .code=3, .name="CROSS"},
-        {.type=BUTTON, .code=4, .name="SQUARE"},
-        {.type=BUTTON, .code=2, .name="CIRCLE"},
+        {.type=BUTTON, .code=1, .name="NORTH"},
+        {.type=BUTTON, .code=3, .name="SOUTH"},
+        {.type=BUTTON, .code=4, .name="WEST"},
+        {.type=BUTTON, .code=2, .name="EAST"},
         // d-pad buttons
         {.type=BUTTON, .code=13, .name="UP"},
         {.type=BUTTON, .code=14, .name="DOWN"},
